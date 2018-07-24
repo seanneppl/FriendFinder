@@ -1,13 +1,13 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "FriendFinder Application",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "sn",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
