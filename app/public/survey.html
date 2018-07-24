@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+    
+    #modalPhoto{
+        width: 100%;
+    }
+    
+    
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+    <h1> This is the survey Page</h1>
+
+    <form class="needs-validation">
+
+        <div class="form-group">
+            <label for="name">If you were a type of water what would your name be?</label>
+            <input type="text" class="form-control" id="name" placeholder="Splash">
+        </div>
+
+        <div class="form-group">
+            <label for="image">What do you look like as water?</label>
+            <input type="text" class="form-control" id="image" placeholder="puddle.png">
+        </div>
+
+        <hr>
+        
+        <div class="form-group">
+            <label for="q1">Question 1: How salty are you?</label>
+            <select class="form-control" id="q2">
+                <option value=""></option>
+                <option value="1">1 ( Fresh )</option>
+                <option value="2">2</option>
+                <option value="3">3 </option>
+                <option value="4">4</option>
+                <option value="5">5 ( They call it the Briny Deep for a reason )</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+                <label for="q2">Question 2: How trendy are you?</label>
+                <select class="form-control" id="q2">
+                    <option value=""></option>
+                    <option value="1">1 ( I don't really follow trends )</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 ( I don't follow trends, I start them )</option>
+             </select>
+        </div>
+
+        <div class="form-group">
+            <label for="q3">Question 3: Does anything live in you?</label>
+            <select class="form-control" id="q3">
+                <option value=""></option>
+                <option value="1">1 ( Definitely Not )</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 ( Sharks, Whales, Fish, you name it! ) </option>    
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="q4">Question 4: How angry are you?</label>
+            <select class="form-control" id="q4">
+                <option value=""></option>
+                <option value="1">1 ( Gentle as a lamb )</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 ( My rage knows no bounds )</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="q5">Question 5: How trade marked are you?</label>
+            <select class="form-control" id="q5">
+                <option value=""></option>
+                <option value="1">1 ( I don't believe in labels )</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 ( ® )</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="q6">Question 6: How refreshing are you?</label>
+            <select class="form-control" id="q6">
+                <option value=""></option>
+                <option value="1">1 ( Yuck! )</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 ( Aaaaahhh )</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="q7">Question 7: How fun are you?</label>
+            <select class="form-control" id="q7">
+                <option value=""></option>
+                <option value="1">1 ( I think I'm just going to stay in tonight )</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 ( Life of the party )</option>
+            </select>
+        </div>
+        <div class="form-group">
+                <label for="q8">Question 8: How full are you?</label>
+                <select class="form-control" id="q8">
+                    <option value=""></option>
+                    <option value="1">1 ( Half Full )</option>
+                    <option value="2">2</option>
+                    <option value="3">3 </option>
+                    <option value="4">4</option>
+                    <option value="5">5 ( Half Empty )</option>
+                </select>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="q9">Question 9: How sad are you?</label>
+            <select class="form-control" id="q9">
+                <option value=""></option>
+                <option value="1">1 ( Not very! )</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 ( Life is awful )</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="q10">Question 10: How happy are you?</label>
+            <select class="form-control" id="q10">
+                <option value=""></option>
+                <option value="1">1 ( Not very )</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 ( As a clam! )</option>
+            </select>
+        </div>
+
+    </form>
+
+        
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
+
+            <hr>
+
+            <footer class="footer">
+                <div class="container">
+                    <p>
+                        <a href="/api/friends">API Friends List</a> | <a href="">GitHub Repo</a>
+                    </p>
+                </div>
+            </footer>
+
+
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Launch demo modal
+            </button> -->
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTitle">You watched with!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 id="modalName"></h4>
+                            <img id="modalPhoto" src="" alt="modalImage">                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+    
+    </div>
+
+
+
+
+    <script>
+
+        // {
+//   "name":"Ahmed",
+//   "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+//   "scores":[
+//       5,1,4,4,5,1,2,5,4,1
+//     ]
+// }
+
+        $("#submit").on("click",function(event){
+
+
+
+             // Form validation
+            function validateForm() {
+                var isValid = true;
+                $(".form-control").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+
+                $(".text").each(function () {
+
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                return isValid;
+            }
+
+
+            if(validateForm()){
+
+            event.preventDefault();
+            var surveyResults = {
+                name: $("#name").val().trim(),
+                photo: $("#image").val().trim(),
+                scores: [
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    $("#q3").val(),
+                    $("#q4").val(),
+                    $("#q5").val(),
+                    $("#q6").val(),
+                    $("#q7").val(),
+                    $("#q8").val(),
+                    $("#q9").val(),
+                    $("#q10").val()
+               ]
+            }
+
+            // console.log(surveyResults);
+            // console.log("test");
+
+            $.post("/api/friends", surveyResults)
+                .then(function (data) {
+                    console.log(data.name);
+                    console.log(data.photo);
+                    $("#modalName").html(data.name);
+                    $("#modalPhoto").attr('src', data.photo);
+                    $('#exampleModalCenter').modal('toggle');
+                    console.log("friend added", data);
+                });
+            
+       
+        } else {
+        alert("Please answer all the questions!");
+    }
+    });
+    </script>
+</body>
+
+</html>
